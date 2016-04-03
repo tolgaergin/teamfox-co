@@ -1,0 +1,95 @@
+body.dark{
+	background-color: #151515;
+	color: #b5b5b5;
+
+	.container{
+		background-color: #000;
+	}
+
+	h1,h2,h3{
+		color: #e6e6e6;
+	}
+
+	.tag{
+		border: 1px solid #222;
+		color: #fff;
+
+		&.tag--red{
+			background-color: $red;
+		}
+		&.tag--pink{
+			background-color: $pink;
+		}
+		&.tag--purple{
+			background-color: $purple;
+		}
+		&.tag--deep-purple{
+			background-color: $deep-purple;
+		}
+		&.tag--indigo{
+			background-color: $indigo;
+		}
+		&.tag--blue{
+			background-color: $blue;
+		}
+		&.tag--light-blue{
+			background-color: $light-blue;
+		}
+		&.tag--cyan{
+			background-color: $cyan;
+		}
+		&.tag--teal{
+			background-color: $teal;
+		}
+		&.tag--green{
+			background-color: $green;
+		}
+		&.tag--light-green{
+			background-color: $light-green;
+		}
+		&.tag--lime{
+			background-color: $lime;
+		}
+		&.tag--yellow{
+			background-color: $yellow;
+			color: #333;
+		}
+		&.tag--amber{
+			background-color: $amber;
+		}
+		&.tag--orange{
+			background-color: $orange;
+		}
+		&.tag--deep-orange{
+			background-color: $deep-orange;
+		}
+		&.tag--brown{
+			background-color: $brown;
+		}
+		&.tag--grey{
+			background-color: $grey;
+		}
+		&.tag--blue-grey{
+			background-color: $blue-grey;
+		}
+		&.tag--black{
+			background-color: #000;
+		}
+	}
+
+	.customers li{
+		transition: all 500ms ease-out;
+    -webkit-filter: grayscale(100%);
+    &:hover{
+    	-webkit-filter: grayscale(0%);
+    }
+	}
+
+	.highlight{
+		background-color: #1F1F1F;
+	}
+
+	.footer{
+		border-top-color: #1F1F1F;
+	}
+}

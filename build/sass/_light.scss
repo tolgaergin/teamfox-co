@@ -1,0 +1,93 @@
+body.light{
+	background-color: #97CEE9;
+	color: #666;
+
+	.container{
+		background-color: #fff;
+	}
+
+	h1,h2,h3{
+		color: #333;
+	}
+
+	.tag{
+		border: 1px solid #EAEAEA;
+
+		&.tag--red{
+			background-color: rgba($red, .05);
+		}
+		&.tag--pink{
+			background-color: rgba($pink, .05);
+		}
+		&.tag--purple{
+			background-color: rgba($purple, .05);
+		}
+		&.tag--deep-purple{
+			background-color: rgba($deep-purple, .05);
+		}
+		&.tag--indigo{
+			background-color: rgba($indigo, .05);
+		}
+		&.tag--blue{
+			background-color: rgba($blue, .05);
+		}
+		&.tag--light-blue{
+			background-color: rgba($light-blue, .05);
+		}
+		&.tag--cyan{
+			background-color: rgba($cyan, .05);
+		}
+		&.tag--teal{
+			background-color: rgba($teal, .05);
+		}
+		&.tag--green{
+			background-color: rgba($green, .05);
+		}
+		&.tag--light-green{
+			background-color: rgba($light-green, .05);
+		}
+		&.tag--lime{
+			background-color: rgba($lime, .05);
+		}
+		&.tag--yellow{
+			background-color: rgba($yellow, .05);
+		}
+		&.tag--amber{
+			background-color: rgba($amber, .05);
+		}
+		&.tag--orange{
+			background-color: rgba($orange, .05);
+		}
+		&.tag--deep-orange{
+			background-color: rgba($deep-orange, .05);
+		}
+		&.tag--brown{
+			background-color: rgba($brown, .05);
+		}
+		&.tag--grey{
+			background-color: rgba($grey, .05);
+		}
+		&.tag--blue-grey{
+			background-color: rgba($blue-grey, .05);
+		}
+		&.tag--black{
+			background-color: rgba(#000, .05);
+		}
+	}
+
+	.customers li{
+		transition: all 500ms ease-out;
+    -webkit-filter: grayscale(100%);
+    &:hover{
+    	-webkit-filter: grayscale(0%);
+    }
+	}
+
+	.highlight{
+		background-color: rgba(yellow, .2);
+	}
+
+	.footer{
+		border-top: 2px solid #f3f3f3;
+	}
+}
